@@ -6,19 +6,9 @@ class HolaMundo
     def initialize()
     end
     def saluda()
-        i = 0
-        until i > 5 do
-            print i
-            i+=1
-        end
-        #begin
-         #   print i
-          #  i+=1
-        #end while i<5
-        #while i<5 do
-         #   print i
-          #  i+=1
-        #end
+        #print [1,2,3][0] #print element 0 on array
+        array = [1,2,3]<<"orange" #ad an element on array
+        print array[3]
     end
 end
 #creamos el obejto de la clase hola mundo
